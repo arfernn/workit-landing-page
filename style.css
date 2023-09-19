@@ -197,7 +197,7 @@ button:hover {
 }
 
 .page__presentation {
-  padding-top: 118px;
+  padding-top: 7rem;
   width: 100%;
   display: flex;
   flex-flow: column;
@@ -211,7 +211,7 @@ button:hover {
 
 .squared__description {
   background-color: var(--clr-dark-purple);
-  margin: 0px 15px 0px 15px;
+  margin: 0 1rem 0 1rem;
   color: white;
   padding: 20px;
   text-align: center;
@@ -224,7 +224,8 @@ button:hover {
 }
 
 .description__text {
-  margin: 0px 10px 20px 10px;
+  margin: 0 .6rem 1.5rem .6rem;
+  line-height: 2;
 }
 
 body {
