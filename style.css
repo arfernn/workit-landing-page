@@ -277,6 +277,12 @@ main {
   padding: 0 1rem 0 1rem;
 }
 
+.image-overlay {
+  z-index: 200;
+  position: absolute;
+  display: none;
+}
+
 .bg__section1 {
   background-color: var(--clr-dark-purple);
   height: 410px;
@@ -328,6 +334,28 @@ main {
 
   .page__motto {
     width: 50%;
+  }
+
+  .image-overlay {
+    display: block;
+  }
+
+  .image-1 {
+    position: relative;
+    top: 100px;
+    left: -230px;
+  }
+
+  .image-2 {
+    position: relative;
+    top: -100px;
+    left: 700px;
+  }
+
+  .image-3 {
+    position: relative;
+    top: 1320px;
+    left: 500px;
   }
 
   .bg__section1 {
@@ -399,6 +427,29 @@ main {
     width: 30%;
   }
 
+
+  .image-overlay {
+    display: block;
+  }
+
+  .image-1 {
+    position: relative;
+    top: 70px;
+    left: -140px;
+  }
+
+  .image-2 {
+    position: relative;
+    top: -100px;
+    left: 1310px;
+  }
+
+  .image-3 {
+    position: relative;
+    top: 1350px;
+    left: 1000px;
+  }
+
   .bg__section1 {
     height: 730px;
   }
@@ -438,7 +489,7 @@ main {
     margin-top: 2rem;
   }
 
-  .list-content { 
+  .list-content {
     display: flex;
     flex-flow: column;
   }
@@ -459,7 +510,7 @@ main {
 
   .squared__description {
     left: 370px;
-    width: 75%;
+    width: 70%;
     text-align: left;
     top: 20rem;
   }
@@ -470,7 +521,7 @@ main {
 
   .presentation__pic {
     width: 477px;
-  }  
-  
+  }
+
 
 }
